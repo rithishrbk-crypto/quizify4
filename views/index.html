@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/css/style.css">
+<title>Quizify: timed quizzes with instant results</title>
+<meta name="description" content="Quizify is an online quiz platform with timed multiple-choice quizzes, instant scoring and detailed answer reviews.">
+</head><body>
+<div class="container">
+  <nav class="nav glass" aria-label="Main">
+    <a class="logo" href="/" data-logo></a>
+    <div class="nav-links"><a href="#features">Features</a><a href="#how">How it works</a></div>
+    <div class="nav-cta"><a class="btn btn-ghost btn-sm" href="/login">Log in</a><a class="btn btn-primary btn-sm" href="/register">Get started</a></div>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <h1>Take a quiz. Know exactly where you stand.</h1>
+      <p class="lead">Quizify gives you timed multiple-choice quizzes, instant scoring and a full answer review, so every attempt teaches you something.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="/register">Get started</a><a class="btn btn-ghost" href="#how">See how it works</a></div>
+      <p class="hero-note">Free for students. Five quizzes ready to go.</p>
+    </div>
+    <div class="glass mock" aria-hidden="true">
+      <div class="mock-top"><span>Question 4 of 10</span><span class="mock-timer"><span data-icon="clock" data-size="14"></span>07:42</span></div>
+      <div class="mock-bar"><span></span></div>
+      <h3>Which property controls the stacking order of overlapping elements?</h3>
+      <div class="mock-opt"><b>A</b>z-index</div>
+      <div class="mock-opt sel"><b>B</b>order</div>
+      <div class="mock-opt"><b>C</b>stack</div>
+      <div class="mock-opt"><b>D</b>layer</div>
+    </div>
+  </header>
+
+  <section class="block" id="features">
+    <div class="section-head"><h2>Everything you need to practise with confidence</h2><p>A focused quiz experience without the clutter.</p></div>
+    <div class="features">
+      <article class="glass feature glow-hover"><div class="ico" data-icon="clock"></div><h3>Timed quizzes</h3><p>A live countdown keeps you on pace and submits automatically when time runs out.</p></article>
+      <article class="glass feature glow-hover"><div class="ico" data-icon="shield"></div><h3>Fair, instant scoring</h3><p>Scores are calculated on the server and answers stay hidden until you submit.</p></article>
+      <article class="glass feature glow-hover"><div class="ico" data-icon="book"></div><h3>Answer review</h3><p>See every question with your answer, the correct one and a short explanation.</p></article>
+      <article class="glass feature glow-hover"><div class="ico" data-icon="chart"></div><h3>Progress history</h3><p>Track your average score and revisit past results whenever you like.</p></article>
+    </div>
+  </section>
+
+  <section class="block" id="how">
+    <div class="section-head"><h2>From sign-up to results in three steps</h2><p>You can be answering your first question in under a minute.</p></div>
+    <div class="steps">
+      <div class="glass step"><h3>Create your account</h3><p>Register with your name and email. Your password is stored securely.</p></div>
+      <div class="glass step"><h3>Pick a quiz and start</h3><p>Choose from HTML, CSS, JavaScript, programming and general knowledge quizzes.</p></div>
+      <div class="glass step"><h3>Review your results</h3><p>Get your score, pass or fail status and an explanation for every question.</p></div>
+    </div>
+  </section>
+
+  <section class="glass cta-band"><h2>Ready for your first quiz?</h2><p>Create a free account and start practising.</p><a class="btn btn-primary" href="/register">Get started</a></section>
+</div>
+<footer><div class="container"><a class="logo" href="/" data-logo></a><span>Quizify is a college project built with Node.js and Express.</span></div></footer>
+<script src="/js/common.js"></script>
+</body></html>

@@ -1,0 +1,8 @@
+node_modules/
+.env
+data/*.json
+data/*.tmp
+data/*.corrupt-*
+# copied from views/ by the Netlify build
+public/*.html
+.netlify/
